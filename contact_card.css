@@ -5,8 +5,13 @@
 #container {
   width: 970px;
 }
+
 .name {
   display: inline-block;
+}
+
+.names {
+  display: inline;
 }
 
 .form_element {
@@ -39,4 +44,12 @@ input[type='submit'] {
 .contact-card-front {
   vertical-align: top;
   margin-top: 50px;
+}
+
+.description {
+  display: none;
+}
+
+.contact-card-front a {
+  display: block;
 }
