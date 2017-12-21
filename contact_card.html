@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="contact_card.css">
+    <script type="text/javascript"
+    src= "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+    </script>
+    <script src='contact_card.js'></script>
+  </head>
+  <body>
+    <div id='container'>
+      <form method="post" id='form'>
+        <div class='form_element'>
+          <label for="name">First Name: </label>
+          <input class='name' type="text" name="first_name">
+        </div>
+        <div class="form_element">
+          <label for="name">Last Name: </label>
+          <input class='name' type="text" name="last_name">
+        </div>
+        <div class="form_element">
+          <label for="description">Description: </label>
+          <textarea name='description' form='form'>Enter description:</textarea>
+        </div>
+        <input type="submit" value="Add User">
+      </form>
+      <div class='contacts'>
+        <div class='contact-card-front'>
+          <p>Ashwin Vidiyala</p>
+          <p>I like dogs, cats and candy.</p>
+        </div> <!-- End of contact-card div -->
+
+      </div> <!-- End of contacts div -->
+    </div> <!-- End of container div -->
+  </body>
+</html>

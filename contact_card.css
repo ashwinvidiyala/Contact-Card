@@ -1,0 +1,41 @@
+* {
+  font-family: arial;
+}
+
+#container {
+  width: 970px;
+}
+.name {
+  display: inline-block;
+}
+
+.form_element {
+  margin-top: 25px;
+}
+
+#form {
+  width: 48%;
+  display: inline-block;
+}
+
+.contacts {
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+}
+
+.form_element textarea {
+  display: block;
+  margin-top: 10px;
+  height: 75px;
+  width: 220px;
+}
+
+input[type='submit'] {
+  margin-top: 25px;
+  font-size: 45px;
+}
+
+.contact-card-front {
+  vertical-align: top;
+}
