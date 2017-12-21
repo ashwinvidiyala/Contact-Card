@@ -34,6 +34,7 @@ $(document).ready(function () {
       $('.description').toggle();
       $('.names').toggle();
     });
+
     $('.contact-card-front' + "." + random).append(a);
     $('.contacts').append("</div>");
     return false;
